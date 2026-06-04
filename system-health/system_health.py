@@ -34,6 +34,7 @@ def check_system_resources():
   check_disk(disk_threshold,disk_usage)
 
 validation_result = validate_user_input()
+
 if validation_result:
   check_system_resources()
  
